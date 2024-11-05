@@ -1,0 +1,51 @@
+<h1 id="embedded-lesson">Embedded lesson</h1>
+<h2 id="how-to-start">How to start</h2>
+<p>To work on the project fork the repository in your own Raceup GitHub
+profile.</p>
+<h2 id="requirements">Requirements</h2>
+<p>#[no_std] must remain and you are not allowed to use any external
+library.</p>
+<h2 id="what-to-do">What to do</h2>
+<ul>
+<li><p>what does it mean to use #[no_std] in a rust project and why may
+it be necessary?</p></li>
+<li><p>what does it mean to extern crate alloc; in a rust project and
+why may it be necessary?</p></li>
+<li><p>define a trait that represents a Mex with the following functions
+where data and id are generic parameters:</p>
+<ul>
+<li>new(id,length,data): return a new Mex</li>
+<li>id(): given a Mex return its id</li>
+<li>dlc(): given a Mex return its length</li>
+<li>data(): given a Mex return its data</li>
+</ul></li>
+<li><p>define a trait that represent the usage of a generic bus
+where</p>
+<ul>
+<li>the trait has a generic parameter
+<P>
+with the constraint that
+<P>
+has to implement the Mex trait</li>
+<li>the following functions must exist: - new: initializes a new bus
+returning the object that implements the trait - send: use the object
+that implement the trait, take a
+<P>
+type and send it in the bus. return a Result with type () if Ok and
+Err(&amp;str) if some errors occur - receive: use the object that
+implement the trait, return a
+<P>
+type populated with the data obtained from the bus</li>
+</ul></li>
+<li><p>Implement the following protocols with the trait above:</p>
+<ul>
+<li>CAN base (id 11-bit)</li>
+<li>Serial For each implementation define some unit-testing where you
+define at least one function for each function defined in the
+implementation</li>
+</ul></li>
+</ul>
+<p>Don’t worry if you don’t complete.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If you have an amd computer delete the .cargo directory or change the
+target accordingly</p>
