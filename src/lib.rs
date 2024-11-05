@@ -4,8 +4,8 @@ extern crate alloc;
 /*
  * #[no_std] must remain and you are not allowed to use any external library.
  *
- * 1- what does it mean to use #[no_std] in a rust project?
- * 2- what does it mean to extern crate alloc; in a rust project
+ * 1- what does it mean to use #[no_std] in a rust project and why it may be necessary?
+ * 2- what does it mean to extern crate alloc; in a rust project and why it may be necessary?
  *
  * 3- define a trait that represent a Mex with the following functions where data and id are 
  *    generics  parameters:
