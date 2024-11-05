@@ -31,4 +31,9 @@ extern crate alloc;
  *  one function for each function defined in the implementation
  *
  *  IF YOU HAVE AN AMD COMPUTER DELETE THE .cargo DIRECTORY OR CHANGE THE target accordingly
+ *
+ *
+ *  If you don't complete the request on saturday it's not a problem. The project itself does not
+ *  have a deadline. It is for you to learn the language and what challenges you will face later
+ *  on.
  */
